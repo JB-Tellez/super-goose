@@ -1,0 +1,23 @@
+{
+  "name":"@jb.tellez/super-goose",
+  "version":"0.0.2",
+  "description":"Reduces pain of testing Mongoose modela and APIs using SuperTest and MongoDB Memory Server",
+  "license":"MIT",
+  "repository":"jb-tellez/super-goose",
+  "main":"index.js",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^10.0.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.8.0",
+    "jest": "^23.6.0",
+    "mongodb-memory-server": "^2.6.2",
+    "supertest": "^3.3.0"
+  }
+}
